@@ -22,4 +22,9 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  host: 127.0.0.1
+  port: 5432
+  # Alterar abaixo para colocar o banco do postgres
+  database: projetoruby
+  user: pruby
+  password: pruby
